@@ -1,6 +1,8 @@
 #!/bin/bash
 set -e # Exit with nonzero exit code if anything fails
 
+echo "HELLO"
+
 SOURCE_BRANCH="master"
 TARGET_BRANCH="master"
 SHA=`git rev-parse --verify --short HEAD`
@@ -12,7 +14,7 @@ if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]
 fi
 
 # Keys
-openssl aes-256-cbc -K $encrypted_64c33928a335_key -iv $encrypted_64c33928a335_iv -in scripts/deploy/keys.tar.enc -out scripts/deploy/keys.tar -d
+openssl aes-256-cbc -K $encrypted_cb972ee281f6_key -iv $encrypted_cb972ee281f6_iv -in scripts/deploy/keys.tar.enc -out scripts/deploy/keys.tar -d
 tar xvf scripts/deploy/keys.tar -C scripts/deploy/
 rm scripts/deploy/keys.tar
 
@@ -33,10 +35,21 @@ cd out
 git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
 cd ..
 
+# Use the API_VERSION variable to put in the right place
+# unset or empty
+if [ -z "$API_VERSION" ]; then
+  OUTDIR="out"
+else
+  OUTDIR="out/$API_VERSION"
+fi
+
 # Overwrite contents with _site
-rm -rf out/**/* || exit 0
-cp -r _site/* out/
-cp README.md out/
+mkdir -p $OUTDIR
+rm -rf $OUTDIR/**/* || exit 0
+
+echo "Copying to $OUTDIR"
+cp -r _site/* $OUTDIR
+cp README.md $OUTDIR
 
 # Now let's go have some fun with the cloned repo
 cd out
