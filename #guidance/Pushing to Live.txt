@@ -5,15 +5,9 @@ as i) both sites are public, and ii) another user may make a push to the Live si
 
 For this part of the guidance, you will be using GitHub.com instead of Git Bash.
 
-Pushing to Staging / Live has 3 steps:
+Pushing to Live has 2 steps:
 1. Create a Pull Request comparing Develop branch to Master branch
 2. Wait for Travis CI (.org) to rebuild the site, and merge the changes
-3. Push to Live (optional)
-
-Pushing to Live has 2 steps:
-1. Open the working directory
-2. Make required changes to data/metadata/scripts
-3. Push changes to the repository
 
 Troubleshooting section at the bottom of the page.
 
@@ -23,7 +17,7 @@ contact my colleagues Ben (ben.hillman@ons.gov.uk) and Mike (mike.bolton@ons.gov
 
 -----------------
 
-Pushing to Staging
+Pushing to Live
 
 1. Create a Pull Request comparing Develop branch to Master branch
 
@@ -31,6 +25,7 @@ To push to the Staging site, open GitHub.com and go to your repository 'sdg-data
 Make sure your branch is 'develop', and that you have reviewed all pending Pull Requests.
 Click 'New pull request' and update the 'base fork' (left-hand option) to your repo's master branch.
 For example, for the Rwanda SDG site it will be sustainabledevelopment-rwanda/sdg-data > master.
+Note: if the default option is base repository 'ONSDigital...', set it to match the 'head repository'.
 
 If 'master' is on the left and 'develop' on the right, and the repo name is as expected, then you can proceed.
 Scroll down to review the changes that will be pushing from the 'develop' branch to 'master'.
@@ -50,16 +45,11 @@ If they haven't proceed to 'Troubleshooting' below.
 If it goes red, or runs for more than 10 minutes there is a problem.
 Proceed to 'Troubleshooting' below.
 
-3. Pushing to Live (optional)
-
-Exactly the same process as pushing to Staging, but use the 'sdg-indicators' repo instead of 'sdg-data'.
-Only do this if you are happy for the changes to go Live.
-
-If you are having problems (files not apopearing on Staging or Live), then try going to travis-ci.org, and
+If you are having problems (files not appearing on Staging or Live), then try going to travis-ci.org, and
 clicking 'Restart Build' for sdg-indicators, then (when it's gone green) sdg-data. This will hopefully clear any blocks.
 If not, it could be a problem with the metadata. Ensure that reporting status is set to 'complete', and that the CSV passes checks.
 
-Job's a good'un! You have now pushed to Live/Staging.
+Job's a good'un! You have now pushed to Live.
 
 -----------------
 
