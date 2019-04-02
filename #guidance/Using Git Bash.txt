@@ -28,22 +28,22 @@ Cloning a repository
 
 Choose a location to save your cloned repository.
 I recommend creating a folder in your C drive called 'repo',
-and make a folder inside 'repo' for the project (i.e. GhanaSDG).
+and make a folder inside 'repo' for the project (i.e. RwandaSDG).
 
 Open the 'Git Bash' terminal (search for it with the Windows buton), and then
 set your working directory to the project folder using the 'cd' command:
-## cd /c/repo/ghanasdg
+## cd /c/repo/rwandasdg
 ## explorer .   (opens your working directory as a window)
-Note: if you name it differently, just substitute '/c/repo/ghanasdg for your directory in the commands below.
+Note: if you name it differently, just substitute '/c/repo/rwandasdg for your directory in the commands below.
 
 2. Create a local version of the repository
 
-Choose which repository to clone (sustainabledevelopment-Ghana/sdg-data contains the csvs and metadata).
-https://github.com/sustainabledevelopment-ghana/sdg-data
+Choose which repository to clone (sustainabledevelopment-rwanda/sdg-data contains the csvs and metadata).
+https://github.com/sustainabledevelopment-rwanda/sdg-data
 
 Use git clone " [SSH URL] " to make a local copy of the repo on your machine.
 You can find the SSH URL in the main repo page in GitHub (green button 'Clone or download').
-## ___________   (for Ghana sdg-data repository)
+## ___________   (for Rwanda sdg-data repository)
 Note: You can press the 'up' key to show previous commands, and paste using SHIFT + INS.
 
 In Git Bash you will see the download progressing (usually takes 15-60 seconds).
@@ -59,7 +59,7 @@ Editing and pushing files
 1. Open the working directory
 
 Open Git Bash and set the working directory to your repository (update the following as required).
-## cd /c/repo/ghanasdg/sdg-data
+## cd /c/repo/rwandasdg/sdg-data
 ## explorer .
 
 2. Make required changes to data/metadata/scripts
@@ -71,7 +71,7 @@ It's OK to create a folder for shared documents, etc - these won't display on th
 
 You may also want to change the 'Readme' file to alter what displays on your repo page.
 For changes to the site such as contact email, publications and other visual changes,
-you will need to make a clone of the 'sdg-indicators' repo, saving it under 'ghanasdg'.
+you will need to make a clone of the 'sdg-indicators' repo, saving it under 'rwandasdg'.
 
 3. Push changes to the repository
 
