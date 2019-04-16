@@ -135,6 +135,8 @@ prose:
             options:
               - name: 'complete'
                 value: 'complete'
+              - name: 'nonapplicable'
+                value: 'nonapplicable'
               - name: 'notstarted'
                 value: 'notstarted'
 
