@@ -1,7 +1,6 @@
-Year,Group,Value
-2015,A,1
-2015,B,3
-2015,,2
-2016,A,1
-2016,B,3
-2016,,2
+Year,Type,Value
+2016/17,Doctors,"1/10,055"
+2016/17,Nurses,"1/1,094"
+2016/17,Midwives,"1/4,064"
+2016/17,Pharmacists,"1/16,871"
+2016/17,Lab Technicians,"1/10,500"
