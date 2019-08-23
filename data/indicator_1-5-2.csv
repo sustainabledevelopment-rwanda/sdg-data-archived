@@ -1,7 +1,17 @@
-Year,Group,Value
-2015,A,1
-2015,B,3
-2015,,2
-2016,A,1
-2016,B,3
-2016,,2
+Year,Items,Value
+2017,Houses damaged,5802
+2017,Crops (Ha),5277
+2017,Live stocks,590
+2017,Classrooms,203
+2017,Health Centers,3
+2017,Road (Km),13
+2017,Churches,37
+2017,Bridges,49
+2018,Houses damaged,15910
+2018,Crops (Ha),13337.21
+2018,Live stocks,815
+2018,Classrooms,73
+2018,Health Centers,3
+2018,Road,32
+2018,Churches,27
+2018,Bridges,64
