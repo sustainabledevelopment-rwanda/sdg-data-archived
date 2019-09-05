@@ -6,6 +6,7 @@ Year,Event,District,Persons,Value
 2016,Hailstorm,,Deaths,0
 2016,Landslides,,Deaths,110
 2016,Lightning,,Deaths,37
+2016,Mine disaster,,Deaths,0
 2016,Rainstorm,,Deaths,10
 2016,Windstorm,,Deaths,0
 2016,,Bugesera,Deaths,0
@@ -45,6 +46,7 @@ Year,Event,District,Persons,Value
 2016,Hailstorm,,Injured,0
 2016,Landslides,,Injured,51
 2016,Lightning,,Injured,88
+2016,Mine disaster,,Injured,0
 2016,Rainstorm,,Injured,23
 2016,Windstorm,,Injured,0
 2016,,Bugesera,Injured,2
@@ -158,14 +160,14 @@ Year,Event,District,Persons,Value
 2017,,Rutsiro,Injured and Traumatized,4
 2017,,Rwamagana,Injured and Traumatized,0
 2018,,,Deaths,80
-2018,Building Collapse,,Deaths,1
+2018,Earthquake,,Deaths,1
 2018,Fire,,Deaths,1
 2018,Floods,,Deaths,8
 2018,Hailstorm,,Deaths,0
 2018,Landslides,,Deaths,1
 2018,Lightning,,Deaths,43
 2018,Mine disaster,,Deaths,16
-2018,Rain with strong wind,,Deaths,10
+2018,Rainstorm,,Deaths,10
 2018,Windstorm,,Deaths,0
 2018,,Bugesera,Deaths,1
 2018,,Burera,Deaths,2
@@ -198,14 +200,14 @@ Year,Event,District,Persons,Value
 2018,,Rutsiro,Deaths,4
 2018,,Rwamagana,Deaths,14
 2018,,,Injured,212
-2018,Building Collapse,,Injured,3
+2018,Earthquake,,Injured,3
 2018,Fire,,Injured,19
 2018,Floods,,Injured,0
 2018,Hailstorm,,Injured,0
 2018,Landslides,,Injured,11
 2018,Lightning,,Injured,81
 2018,Mine disaster,,Injured,2
-2018,Rain with strong wind,,Injured,95
+2018,Rainstorm,,Injured,95
 2018,Windstorm,,Injured,1
 2018,,Bugesera,Injured,2
 2018,,Burera,Injured,13
