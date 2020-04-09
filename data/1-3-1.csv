@@ -1,11 +1,24 @@
-Year,Programme,Value
-2016-17,VUP,4.9
-2016-17,Public works,1.8
-2016-17,Direct support,2.2
-2016-17,Financial services,0.9
-2016-17,RSSB Pension old grant,1.4
-2016-17,FARG,1.2
-2016-17,RDRC,0.1
-2016-17,Health/education payments,14.5
-2016-17,Food relief,6.8
-2016-17,,21.4
+Year,Units,Social Protection Systems,Category (Active Contributing members or Ritiree),Region,Sex,Unit multiplier,Unit measure,Value
+2016/17,Percentage,Core SP programmes (of national population),,,,Units,Percentage,6.5
+2016/17,Number,Member of Pension and occupational Hazards,Active Contributing members,,,Units,Number,465579.0
+2016/17,Number,Member of Pension and occupational Hazards,Retirees,,,Units,Number,18856.0
+2016/17,Number,Medical scheme,Active members (affiliates),,,Units,Number,133415.0
+2016/17,Number,Medical scheme,Dependents,,,Units,Number,243421.0
+2016/17,Percentage,Community-Based Health Insurance - CBHI (of national population),,,,Units,Percentage,84.2
+2016/17,Percentage,Health insurance (All individuals),,,,Units,Percentage,70.0
+2016/17,Percentage,Health insurance,,Urban,,Units,Percentage,73.8
+2016/17,Percentage,Health insurance,,Rural,,Units,Percentage,69.2
+2016/17,Percentage,Health insurance,,,Male,Units,Percentage,69.4
+2016/17,Percentage,Health insurance,,,Female,Units,Percentage,70.5
+2017/18,Percentage,Core SP programmes (of national population),,,,Units,Percentage,6.5
+2017/18,Number,Member of Pension and occupational Hazards,Active Contributing members,,,Units,Number,539219.0
+2017/18,Number,Member of Pension and occupational Hazards,Retirees,,,Units,Number,21550.0
+2017/18,Number,Medical scheme,Active members (affiliates),,,Units,Number,147170.0
+2017/18,Number,Medical scheme,Dependents,,,Units,Number,285280.0
+2017/18,Percentage,Community-Based Health Insurance - CBHI (of national population),,,,Units,Percentage,83.3
+2017/18,Percentage,Health insurance (All individuals),,,,Units,Percentage,73.9
+2017/18,Percentage,Health insurance,,Urban,,Units,Percentage,79.5
+2017/18,Percentage,Health insurance,,Rural,,Units,Percentage,72.7
+2017/18,Percentage,Health insurance,,,Male,Units,Percentage,73.4
+2017/18,Percentage,Health insurance,,,Female,Units,Percentage,74.5
+2017/18,Number,Maternity Leave Benefits,Actively contributing women,,,Units,Number,164601.0
