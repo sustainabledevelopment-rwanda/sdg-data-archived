@@ -107,6 +107,11 @@ prose:
             element: text
             label: "Other information"
             scope: national
+      - name: "available_disaggregations"
+        field:
+            element: textarea
+            label: "Available disaggregations"
+            scope: national
       - name: "national_data_update_url"
         field:
             element: hidden
