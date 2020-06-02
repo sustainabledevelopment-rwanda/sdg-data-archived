@@ -97,7 +97,7 @@ prose:
             element: textarea
             label: "Definitions"
             scope: national
-       - name: "available_disaggregations"
+      - name: "available_disaggregations"
         field:
             element: textarea
             label: "Available disaggregations"
